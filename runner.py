@@ -1,11 +1,11 @@
-### 
+# Source: https://www.tensorflow.org/federated/tutorials/federated_learning_for_image_classification#preparing_the_input_data
+
 import collections
 import numpy as np
 import tensorflow as tf
 import tensorflow_federated as tff
 
 np.random.seed(0)
-
 
 emnist_train, emnist_test = tff.simulation.datasets.emnist.load_data()
 
